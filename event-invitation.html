@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation: Raju & Rita</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for typography */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        h1, .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Style for the background image */
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1523438885200-e635ba2c371e?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Main container with background image -->
+    <div class="hero-bg min-h-screen flex items-center justify-center p-4">
+        
+        <!-- Invitation Card -->
+        <div class="bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-2xl p-8 md:p-12 max-w-2xl w-full text-center text-gray-800 transform hover:scale-105 transition-transform duration-500">
+
+            <!-- Header Section -->
+            <header class="mb-6">
+                <p class="text-lg tracking-widest text-gray-600 uppercase mb-2">
+                    Together with their families
+                </p>
+                <h1 class="text-5xl md:text-7xl font-bold text-rose-800 font-playfair">
+                    Raju & Rita
+                </h1>
+                <p class="text-lg mt-2 text-gray-600">
+                    invite you to celebrate their wedding
+                </p>
+            </header>
+
+            <!-- Divider -->
+            <div class="w-24 h-px bg-rose-300 mx-auto my-6"></div>
+
+            <!-- Event Details Section -->
+            <div class="event-details mb-8">
+                <div class="mb-4">
+                    <h2 class="text-2xl font-semibold font-playfair text-rose-700">Date & Time</h2>
+                    <p class="text-lg">Friday, 12th July, 2024</p>
+                    <p class="text-md text-gray-600">from 7:00 PM onwards</p>
+                </div>
+                
+                <div>
+                    <h2 class="text-2xl font-semibold font-playfair text-rose-700">Venue</h2>
+                    <p class="text-lg">Madhura North</p>
+                    <p class="text-md text-gray-600">Ward No. 2, Community Hall</p>
+                </div>
+            </div>
+
+            <!-- RSVP Button -->
+            <div class="call-to-action">
+                <a href="#" class="inline-block bg-rose-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-rose-800 transform hover:translate-y-[-2px] transition-all duration-300">
+                    RSVP by 1st July
+                </a>
+            </div>
+
+        </div>
+        <!-- End of Invitation Card -->
+
+    </div>
+
+</body>
+</html>
